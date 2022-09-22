@@ -4,7 +4,7 @@ const FavoritesContext = createContext({
   favorites: [],
   totalFavorites: 0,
   addFavorite: (favoriteMeetup) => {},
-  removeFavorite: (meetupId) => {},
+  removeFavorite: (meetupId) => {}, 
   itemIsFavorite: (meetupId) => {},
 });
 
