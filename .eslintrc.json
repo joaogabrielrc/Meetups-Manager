@@ -18,6 +18,8 @@
     "react"
   ],
   "rules": {
+    "no-unused-vars": ["error", { "args": "none" }],
+    "no-console": "warn",    
     "react/prop-types": "off",    
     "indent": [
       "error",
